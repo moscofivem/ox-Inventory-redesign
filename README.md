@@ -1,66 +1,39 @@
-# ox_inventory
+# :jigsaw: OX Inventory Redesign | QBCore Compatible
 
-A complete inventory system for FiveM, implementing items, weapons, shops, and more without any strict framework dependency.
+**Developer:** [Mosco](https://github.com/MoscoDev)  
+**Inventory Base:** [Ox Inventory v2.41.0](https://github.com/overextended/ox_inventory)  
+---
 
-![](https://img.shields.io/github/downloads/overextended/ox_inventory/total?logo=github)
-![](https://img.shields.io/github/downloads/overextended/ox_inventory/latest/total?logo=github)
-![](https://img.shields.io/github/contributors/overextended/ox_inventory?logo=github)
-![](https://img.shields.io/github/v/release/overextended/ox_inventory?logo=github)
+--- 
+## Preview 
+![Preview 1](https://media.discordapp.net/attachments/1375846977417510943/1378368650716778597/image.png?ex=683c5957&is=683b07d7&hm=6a35a812832e6db489d9ce6c395364f5cc1a0e9393f81f4607a6898f008fd96b&=&format=webp&quality=lossless&width=1228&height=690)
 
-## 📚 Documentation
+![Preview 2](https://media.discordapp.net/attachments/1375846977417510943/1378368672619565137/image.png?ex=683c595c&is=683b07dc&hm=069c6e0ca517e7293a5169f6e50cd8f5fd6d88c34a3ca17cb5a9723c13cd11f8&=&format=webp&quality=lossless&width=605&height=340)
 
-https://overextended.dev/ox_inventory
 
-## 💾 Download
 
-https://github.com/overextended/ox_inventory/releases/latest/download/ox_inventory.zip
+## :package: About the Project
 
-## Supported frameworks
+This is a fully customized and reimagined redesign of the Ox Inventory interface and logic, engineered by **Mosco** to deliver a premium, user-friendly, and optimized inventory experience for **QBCore-based FiveM servers**.
 
-We do not guarantee compatibility or support for third-party resources.
+### :white_check_mark: Core Enhancements:
+- :art: **UI/UX Overhaul**: Redesigned for modern aesthetics and player clarity
 
-- [ox_core](https://github.com/overextended/ox_core)
-- [esx](https://github.com/esx-framework/esx_core)
-- [qbox](https://github.com/Qbox-project/qbx_core)
-- [nd_core](https://github.com/ND-Framework/ND_Core)
-- [qb-core](https://github.com/qbcore-framework/qb-core) (LIMITED SUPPORT! Use qbox instead)
 
-## ✨ Features
+## :wrench: Installation
 
-- Server-side security ensures interactions with items, shops, and stashes are all validated.
-- Logging for important events, such as purchases, item movement, and item creation or removal.
-- Supports player-owned vehicles, licenses, and group systems implemented by frameworks.
-- Fully synchronised, allowing multiple players to [access the same inventory](https://user-images.githubusercontent.com/65407488/230926091-c0033732-d293-48c9-9d62-6f6ae0a8a488.mp4).
+> :warning: **This version is intended for developers with working knowledge of QBCore and Ox Inventory.**
+l
+1. **Ensure Ox Inventory v2.41.0 is installed**  
+   Download or update from: [Ox Inventory GitHub](https://github.com/overextended/ox_inventory)
 
-### Items
+2. **Replace the UI Folder**  
+   Copy the redesigned UI folder and overwrite your current `ox_inventory/web` folder.
 
-- Inventory items are stored per-slot, with customisable metadata to support item uniqueness.
-- Overrides default weapon-system with weapons as items.
-- Weapon attachments and ammo system, including special ammo types.
-- Durability, allowing items to be depleted or removed overtime.
-- Internal item system provides secure and easy handling for item use effects.
-- Compatibility with 3rd party framework item registration.
+3. **Merge Custom Code (if needed)**  
+   Update any client or server logic you’ve customized in your QBCore server to reflect the new structure, if necessary.
 
-### Shops
+4. **Restart the Resource**  
+   Run `ensure ox_inventory` in your `server.cfg` or through txAdmin.
 
-- Restricted access based on groups and licenses.
-- Support different currency for items (black money, poker chips, etc).
-
-### Stashes
-
-- Personal stashes, linking a stash with a specific identifier or creating per-player instances.
-- Restricted access based on groups.
-- Registration of new stashes from any resource.
-- Containers allow access to stashes when using an item, like a paperbag or backpack.
-- Access gloveboxes and trunks for any vehicle.
-- Random item generation inside dumpsters and unowned vehicles.
-
-## Copyright
-
-Copyright © 2024 Overextended <https://github.com/overextended>
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+---

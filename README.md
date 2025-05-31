@@ -10,6 +10,9 @@
 
 ![Preview 2](https://media.discordapp.net/attachments/1375846977417510943/1378368672619565137/image.png?ex=683c595c&is=683b07dc&hm=069c6e0ca517e7293a5169f6e50cd8f5fd6d88c34a3ca17cb5a9723c13cd11f8&=&format=webp&quality=lossless&width=605&height=340)
 
+![Preview 3](https://media.discordapp.net/attachments/1375846977417510943/1378375806367039498/image.png?ex=683c6001&is=683b0e81&hm=12cd35bb754b5fa038e49f4b464f9737642f43da8827c1f5af727ef2b7b0b2ff&=&format=webp&quality=lossless&width=2130&height=1198)
+
+
 
 
 ## :package: About the Project
